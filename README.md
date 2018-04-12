@@ -1,11 +1,11 @@
 ### Gradient Descent Implementation for Linear Regression
 ***
-This example demonstrates how gradient descent to slove linear regression problem.
+This example demonstrates how gradient descent solves linear regression problem.
 
 ### Gradient Descent Algorithm
 ***
 Before we run gradient descent algorithm, we need to design the hypothesis and [loss function](https://en.wikipedia.org/wiki/Loss_function).
- - Hypothesis : $\ y\ = b\ +\ wx\ \ $ ( b and w denote bias and slope)
+ - Hypothesis : $$\ y\ = b\ +\ wx\ \ $$ ( b and w denote bias and slope)
  - Loss Function :$\ \frac{1}{2N}\sum\limits_{i=1}^{N}(\hat{y}_i\ -\ (b\ +\ wx_i))^2$
  
 We hope our hypothesis can fit the set of points better, so the loss must be smaller.
@@ -22,7 +22,7 @@ Update Parameter (n denote number of iteration):
 
 ### Implementation
 ***
-The code contains two class. One of the class the name called `gradient_descent` implement how gradient descent algorithm slove linear regression problem. The other one class called `vis_gradient` visualize the process of the gradient descent algorithm working.
+The code contains two class. One of the class the name called `gradient_descent` implement how gradient descent algorithm solves linear regression problem. The other one class called `vis_gradient` visualize the process of the gradient descent algorithm working.
 
 ```python
 
