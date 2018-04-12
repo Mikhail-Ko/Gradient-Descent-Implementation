@@ -1,2 +1,3 @@
-# Gradient-Descent-Implementation
-Demonstrate gradient descent
+## Gradient Descent Implementation for Linear Regression
+---
+This example demonstrates how gradient descent slove linear regression problem.
