@@ -5,11 +5,9 @@ This example demonstrates how gradient descent solves linear regression problem.
 ### Gradient Descent Algorithm
 ***
 Before we run gradient descent algorithm, we need to design the hypothesis and [loss function](https://en.wikipedia.org/wiki/Loss_function).
- - Hypothesis : $$\ y\ = b\ +\ wx\ \ $$ ( b and w denote bias and slope)
+ - Hypothesis : $\ y\ = b\ +\ wx\ \ $ ( b and w denote bias and slope)
  - Loss Function :$\ \frac{1}{2N}\sum\limits_{i=1}^{N}(\hat{y}_i\ -\ (b\ +\ wx_i))^2$
- 
- $$y-y_0=m(x-x_0)$$
- 
+
 We hope our hypothesis can fit the set of points better, so the loss must be smaller.
 Therefore, it can consider as an optimization problem.
 
