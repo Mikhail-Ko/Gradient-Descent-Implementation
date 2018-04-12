@@ -1,6 +1,6 @@
 ### Gradient Descent Implementation for Linear Regression
 ***
-This example demonstrates how gradient descent slove linear regression problem.
+This example demonstrates how gradient descent to slove linear regression problem.
 
 ### Gradient Descent Algorithm
 ***
@@ -68,8 +68,3 @@ vis.gradent_search()
 ```
 
 <img src = "\\animation\\gradient_search.gif" height = "400" width = "450">
-=======
-## Gradient Descent Implementation for Linear Regression
----
-This example demonstrates how gradient descent slove linear regression problem.
->>>>>>> adf63b842c9ddca690cfe08f53bdbb138148f25f
