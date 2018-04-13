@@ -1,4 +1,4 @@
-### Gradient Descent Implementation for Linear Regression
+### Gradient Descent  for Linear Regression
 ***
 This example demonstrates how gradient descent solves the linear regression problem.
 
