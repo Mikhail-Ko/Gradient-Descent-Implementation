@@ -47,7 +47,7 @@ vis.fit_process()
  -  Visualize gradient search.
 
 ```python
-vis.gradent_search() 
+vis.gradient_search() 
 ```
 
 <img src = "\\animation\\gradient_search.gif" height = "400" width = "450">
