@@ -2,25 +2,6 @@
 ***
 This example demonstrates how gradient descent solves the linear regression problem.
 
-### Gradient Descent Algorithm
-***
-Before we run gradient descent algorithm, we need to design the hypothesis and [loss function](https://en.wikipedia.org/wiki/Loss_function).
- - Hypothesis : $$y = b + wx$$ 
- - Loss Function :$$L(\theta) = \frac{1}{2N}\sum_{i = 1}^{N}(\hat{y}_i - (b + wx_i))^2$$
-
-We hope our hypothesis can fit the set of points better, so the loss must be smaller.
-Therefore, it can consider as an optimization problem.
-
- - optimization : $$ \theta^*\ =\ arg \min_{\theta}L(\theta)$$ 
- 
- 
-Calculate partial differential of parameter: 
- 1. $$\frac{\partial L}{\partial W} = \frac{1}{N}\sum_{i = 1}^{N}(\hat{y}_i - (b + wx_i))(-x_i)$$
- 2. $$\frac{\partial L}{\partial b} = \frac{1}{N}\sum_{i = 1}^{N}(\hat{y}_i - (b + wx_i))(-1)$$
-
-Update Parameter (n denote number of iteration):
- - Repeat : $$\left\{\begin{aligned}w^n\ =\ w^{n-1}\ -\ \tau\frac{\partial L}{\partial W} \\ b^{n}\ =\ b^{n-1}\ -\ \tau\frac{\partial L}{\partial W}\end{aligned}\right.$$
-
 
 ### Implementation
 ***
