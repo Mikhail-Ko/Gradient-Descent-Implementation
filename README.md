@@ -5,7 +5,7 @@ This example demonstrates how gradient descent solves the linear regression prob
 
 ### Implementation
 ***
-The code contains two class. One of the class the name is called `gradient_descent` implement how gradient descent algorithm solves the linear regression problem. The other one is called `vis_gradient` visualize the process of the gradient descent algorithm working.
+The code contains two class. The first class `gradient_descent` implements how gradient descent algorithm solves the linear regression problem. The second one `vis_gradient` visualizes the process of the gradient descent algorithm working.
 
 ```python
 
@@ -25,7 +25,7 @@ slope = parameter[:, 1]
 ***
 Using `vis_gradient` to visualize training process.
 
- -  Visualize each training iteration error 
+ -  Visualize each training iteration error. 
 
 ```python
 
